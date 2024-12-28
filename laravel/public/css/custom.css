@@ -1,0 +1,180 @@
+/*
+[pageNav]
+******************************************/
+.content_kpi .pageNav {
+    border-bottom: 1px solid #e9e2e2;
+    padding-bottom: 5px;
+    margin: 0px 0 15px;
+}
+.content_kpi  .pageNav:last-child {
+    margin-bottom: 0;
+}
+.content_kpi .pageNav-unit {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.content_kpi .pageNav-item {
+    margin: 10px 30px 0 0;
+    list-style-type: none;
+    font-size: 17px;
+}
+.content_kpi .pageNav-item:last-child {
+    margin-right: 0;
+}
+.content_kpi .pageNav-link {
+    display: inline-flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 10px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #BEC4C7;
+    font-weight: bold;
+    color: #333;
+    justify-content: center;
+    width: 110px;
+}
+.content_kpi .pageNav-link.is-active {
+    background: #403e3e;
+    pointer-events: none;
+    color: white;
+}
+
+.content_kpi .active{
+    background: #403e3e;
+    pointer-events: none;
+    color: white !important;
+}
+
+@media (max-width: 768px) {
+    .content_kpi .pageNav {
+        margin: -5px 0 15px;
+    }
+    .content_kpi .pageNav-item {
+        margin: 5px 5px 0 0;
+        list-style-type: none;
+        font-size: 17px;
+    }
+}
+/******************************************
+ */
+
+
+/*
+[select]
+******************************************/
+.content_kpi .formSelect {
+    width: 100%;
+}
+.content_kpi .formSelect:before {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    line-height: 1;
+    pointer-events: none;
+    z-index: 1;
+}
+.content_kpi .formSelect-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 30px 0 10px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #BEC4C7;
+}
+.content_kpi .formSelect-input:not(:disabled) {
+    cursor: pointer;
+}
+.content_kpi .formSelect-input:disabled {
+    background: #EFF1F4;
+}
+
+.content_kpi .kpi_page .formSelect {
+    display: inline-block;
+    width: 120px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.content_kpi .text-manual {
+    color: #D254BF;
+}
+
+.content_kpi .text-danger-manual {
+    color: #ff1493;
+}
+
+.content_kpi .content_log p{
+    white-space: pre;
+}
+
+.content_kpi .item_page .formSelect {
+    display: inline-block;
+    width: 250px;
+    margin: 30px 0px 0px 0px;
+}
+
+.content_kpi .grap-kpi {
+    margin-bottom: 50px;
+}
+
+.btn-export-user {
+    margin-top: 20px;
+    background: black;
+    color: white;
+}
+
+.btn-export-user:hover {
+    color: #cdc5c5;
+}
+
+.btn-export-user:focus {
+    color: #cdc5c5;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-header {
+        margin-top: 0px !important;
+    }
+    .page-header h1 {
+        font-size: 25px;
+    }
+}
+
+
+#ProgramStockCv{
+    max-width: 400px;
+}
+.stock_cv{
+    display: grid;
+}
+#addNoteCv,.removenode{
+    margin: 10px;
+}
+
+.save{
+    display: block;
+    text-align: center;
+    color: red;
+}
+.save .submit{
+    text-align: center;
+}
+label#rate{
+    padding: 5px;
+    vertical-align: bottom;
+    color: red;
+}
+#popupCheckpoint {
+    display: none;
+  }
+
+  #popupCheckpoint.show {
+    display: block;
+  }
+
+

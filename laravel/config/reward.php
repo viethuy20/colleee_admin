@@ -1,0 +1,22 @@
+<?php
+return [
+    'status' => [App\AffReward::REWARDED_STATUS => '配布済み',
+        App\AffReward::CANCELED_STATUS => 'キャンセル',
+        App\AffReward::WAITING_STATUS => '配布待ち',
+        App\AffReward::ERROR_STATUS => '異常',
+        App\AffReward::ACTIONED_STATUS => '発生',
+        App\AffReward::AUTO_CANCELED_STATUS => '自動キャンセル',],
+    'error' => [App\AffReward::SUCCESS_CODE => '正常',
+        App\AffReward::FORMAT_ERROR_CODE => '書式エラー',
+        App\AffReward::USER_NOT_EXIST_CODE => 'ユーザー取得失敗',
+        App\AffReward::AFFIRIATE_NOT_EXIST_CODE => 'アフィリエイト取得失敗',
+        App\AffReward::POINT_ZERO_CODE => '0ポイント配布',
+        App\AffReward::CONFLICT_CODE => '重複エラー',
+        App\AffReward::TEST_PROGRAM_CODE => 'テスト用プログラムエラー',
+        App\AffReward::CLICK_NOT_EXIST_CODE => 'クリック取得失敗',
+        App\AffReward::COURSE_NOT_EXIST_CODE => 'コース取得失敗',],
+    'pre_status' => [App\PreAffReward::SUCCESS_STATUS => '正常完了',
+        App\PreAffReward::DAMAGE_STATUS => '損害発生',
+        App\PreAffReward::REWARDED_STATUS => '確認中',
+        App\PreAffReward::EXCLUDED_STATUS => '損害除外'],
+];
